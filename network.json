@@ -1,13 +1,8 @@
 {
     "collaborators": [
-        "christysato",
-        "xzhan147",
-        "agarge",
-        "woojinpark",
-        "jganatra07",
-        "saramasa"
+        "siddharth0492"
     ],
-    "created_at": "2018-09-27 15:14:06",
+    "created_at": "2018-12-14 20:29:21",
     "edges": [
         {
             "ports": [
@@ -606,37 +601,27 @@
             "name": "monthBucket.png"
         },
         {
-            "assigned_to": "saramasa",
             "desc": "In here we will be performing data cleaning. There are variables in a different incomprehensible format, NA's, missing values etc. All these are handles in this script.",
-            "name": "Cleaningdataset.R",
-            "task_status": "completed"
+            "name": "Cleaningdataset.R"
         },
         {
             "name": "scheduled_departure_hour.png"
         },
         {
-            "assigned_to": "xzhan147",
             "desc": "This section will be exploring the variables which might be associated with satisfaction based on the graphs created by the team using T-tests, Anovas and ect. Based on the preliminary findings in this section, we will be able to know whether the differences or association are reaching the significant level in statistics or not. These findings will be helping us in making the decision of  considering these variables as potential predictors to satisfaction and including them in our model. lm is used for modelling. ",
-            "name": "modelTesting_lm.R",
-            "task_status": "completed"
+            "name": "modelTesting_lm.R"
         },
         {
-            "assigned_to": "agarge",
             "desc": "Pictorial analysis of five variables present in the dataset (departure delay, arrival delay, shopping at the airport, Class, Flight Time, Flight Cancellation). All the plots are using satisfaction rate as the dependent variable (Y).",
-            "name": "Plot5.R",
-            "task_status": "completed"
+            "name": "Plot5.R"
         },
         {
-            "assigned_to": "christysato",
             "desc": "Plots of the four variables (day of month, flight date, airline code, and airline name) that provide a visualization of the data.\r\n\r\nAirline code and airline name plots are not working in MIDST, but it works in RStudio",
-            "name": "Plot3.R",
-            "task_status": "completed"
+            "name": "Plot3.R"
         },
         {
-            "assigned_to": "woojinpark",
             "desc": "Plots of the five variables (% of Flight with other Airlines, Type of Travel,No. of other Loyalty Cards, Shopping Amount at Airport and Eating and Drinking at Airport) that would provide a pictorial representation of the data.",
-            "name": "Plot2.R",
-            "task_status": "completed"
+            "name": "Plot2.R"
         },
         {
             "name": "freqplot.png"
@@ -648,16 +633,14 @@
             "name": "goodrulesplot.png"
         },
         {
-            "assigned_to": "christysato",
+            "assigned_to": "siddharth0492",
             "desc": "Arules on age, gender, and class (LHS) and satisfaction (RHS)\r\n\r\nThe plots work on RSTUDIO, it seems that cannot install arules package on MIDST",
             "name": "Arules.R",
-            "task_status": "completed"
+            "task_status": "in progress"
         },
         {
-            "assigned_to": "agarge",
             "desc": "This is the resultant dataset after performing all the necessary cleaning. Which includes converting the variables into proper format, filling up missing values and removing unwanted observations.",
-            "name": "clean_data.R",
-            "task_status": "completed"
+            "name": "clean_data.R"
         },
         {
             "name": "LogReg_Summs.png"
@@ -666,39 +649,33 @@
             "name": "Destination_City.png"
         },
         {
-            "assigned_to": "jganatra07",
             "desc": "Plots of 4 variables (Origin city, Origin State, Destination State and Scheduled Departure Hour) that showcases the pictorial analysis of the data",
-            "name": "plot4.R",
-            "task_status": "completed"
+            "name": "plot4.R"
         },
         {
-            "assigned_to": "saramasa",
+            "assigned_to": "siddharth0492",
             "desc": "Plots of the first five variables that would provide a pictorial representation of the data.",
             "name": "Plot1.R",
-            "task_status": "completed"
+            "task_status": "in progress"
         },
         {
             "name": "no_of_flightsat.png"
         },
         {
-            "assigned_to": "woojinpark",
+            "assigned_to": "siddharth0492",
             "desc": "In this step, we used a supervised learning technique called a support vector machine (SVM).  First, I train the algorithm on an initial set of data (the supervised phase) and then test out on a brand-new set of data.\r\nSVM uses a technique called the kernel trick to transform my dataset and then based on these transformations it finds an optimal boundary between the possible outputs. So simply, it helps to separate our data based on the output have been defined.  Based-on T-test result, the 7 most important variables are used in SVM analysis, \u2018Age, Gender, Price.Sensitivity, No.of.Flights.p.a, Type.of.Travel, Class, Arrival.Delay.greater.5.Mins\u2018 .\r\nIn the SVM prediction model the percentage of mistakes explains the error rate, and we tried to detect the model having the error rate to be as low as possible. After all analysis work, we  found the best model with the smallest error rate to  distinguish our customer\u2019s Overall satisfaction. \r\n\r\n************************************\r\n I did a pair work with 'Aniruddh Garge' when I did a SVM sampling and exploration approach\r\n. \r\n\r\n*Plots do not work on MIDST, they work on RSTUDIO",
             "name": "SVMmodel.R",
-            "task_status": "completed"
+            "task_status": "in progress"
         },
         {
-            "assigned_to": "saramasa",
             "desc": "Performing logistic regression on the final dependent variable into a categorical variable.",
-            "name": "Logistic_Regression.R",
-            "task_status": "completed"
+            "name": "Logistic_Regression.R"
         },
         {
-            "assigned_to": "christysato",
             "desc": "Satisfaction depending on Month Buckets (end, middle, beginning of month)\r\n\r\nPlot does not show in MIDST correctly, but works in RSTUDIO",
-            "name": "monthBucket.R",
-            "task_status": "completed"
+            "name": "monthBucket.R"
         }
     ],
-    "updated_at": "2018-12-08 03:34:03",
-    "url": "https://github.com/fall2018-saltz/cs_project1"
+    "updated_at": "2018-12-18 01:53:49",
+    "url": "https://github.com/fall2018-wallace/cs_project1_ec"
 }
