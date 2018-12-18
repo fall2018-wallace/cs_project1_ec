@@ -10,7 +10,7 @@ newdata <- newdata[,-4:-11]
 newdata$Satisfaction <- discretize(newdata$Satisfaction, methods = NULL, default = NULL)
 newdata$Age <- discretize(newdata$Age, methods = NULL, default = NULL)
 
-flightSurvey <- as.(newdata, "transactions")
+flightSurvey <- as(newdata, "transactions")
 
 inspect(flightSurvey)
 
